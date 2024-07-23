@@ -39,8 +39,12 @@ async function processLink(page, link, selector) {
 }
 
 async function getStockData(page) {
-    await page.goto('https://www.set.or.th/en/market/product/stock/quote/aot/factsheet');
-    await goDown(page);
+    await goDown(page)
+    const stockName = await page.evaluate(() => {
+        const name = document.querySelector('.d-flex.flex-column.ms-3 h1');
+        return name ? name.innerText : 'unknown';
+    });
+
     const tableData = await page.evaluate(() => {
         function extractYear(header) {
             const match = header.match(/\b\d{4}\b/);
@@ -127,15 +131,29 @@ async function getStockData(page) {
 
         return result;
     });
-    console.log(tableData);
-    fs.writeFileSync('testData.json', JSON.stringify(tableData, null, 2), 'utf8');
+
+    return({name:stockName,data:tableData})
 }
 
 async function run() {
-    const browser = await puppeteer.launch({ headless: false });
+    const browser = await puppeteer.launch();
     const page = await browser.newPage();
 
-    await getStockData(page);
+    const links = JSON.parse(fs.readFileSync('allLinks.json', 'utf8'));
+
+    result = []
+
+    for (const link of links) {
+        try {
+          await page.goto(link);
+          const data = await getStockData(page)
+          console.log(data)
+          result.push(data)
+        } catch (error) {
+          console.error(`Failed to navigate to ${link}: ${error.message}`);
+        }
+      }
+      fs.writeFileSync('StockData.json', JSON.stringify(result, null, 2), 'utf8');
 
     await browser.close();
 }
