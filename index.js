@@ -89,27 +89,9 @@ async function getStockData(page){
 
         return allTableData
 
-        // const selector = '.table.b-table.table-custom-field.table-custom-field--cnc.table-hover-underline.b-table-no-border-collapse'
-        
-        // const headers = Array.from(document.querySelectorAll(`${selector} thead th`))[2]
-        //   .map(th => th.innerText.trim().replace(/\s+/g, ' '));
-    
-        // const rows = Array.from(document.querySelectorAll(`${selector} tbody tr`))
-        //   .map(tr => {
-        //     const cells = Array.from(tr.querySelectorAll('td')).map(td => td.innerText.trim());
-        //     return cells;
-        //   });
-    
-        // return {'header':headers, 'rows':rows };
       });
-    
-      console.log(tableData)
-    
+    console.log(tableData)
      fs.writeFileSync('testData.json', JSON.stringify(tableData, null, 2), 'utf8');
-
-    // for (const link of Testlinks) {
-    //     
-    // }
 }
 
 // Main function to run the script
