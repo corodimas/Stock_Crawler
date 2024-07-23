@@ -1,243 +1,66 @@
 [
   {
-    "columns": [
-      [
-        "",
-        "YTD 19 Jul 2024",
-        "2023 28 Dec 2023",
-        "2022 30 Dec 2022"
-      ]
-    ],
-    "rows": [
-      [
-        "Listed share (M.Shares)",
-        "1,253.82",
-        "1,253.82",
-        "1,253.82"
-      ],
-      [
-        "Market Cap. (M.Baht)",
-        "16,299.67",
-        "14,418.94",
-        "16,048.91"
-      ],
-      [
-        "Price (Baht/share)",
-        "13.00",
-        "11.50",
-        "12.80"
-      ],
-      [
-        "BVPS (Baht/Share)",
-        "14.41",
-        "13.71",
-        "12.78"
-      ],
-      [
-        "P/BV (X)",
-        "0.90",
-        "0.84",
-        "1.00"
-      ],
-      [
-        "P/E (X)",
-        "10.55",
-        "10.17",
-        "9.74"
-      ],
-      [
-        "Turnover Ratio (%)",
-        "30.27",
-        "62.44",
-        "131.24"
-      ],
-      [
-        "Value Trade/Day (M.Baht)",
-        "34.77",
-        "38.04",
-        "100.41"
-      ],
-      [
-        "Beta",
-        "0.90",
-        "1.03",
-        "0.59"
-      ]
-    ]
+    "date": "Y/E 2022 30 Sep 2022",
+    "financialData": {
+      "Listed share (M.Shares)": "14,285.70",
+      "Market Cap. (M.Baht)": "1,071,427.50",
+      "Price (Baht/share)": "75.00",
+      "BVPS (Baht/Share)": "7.09",
+      "P/BV (X)": "10.57",
+      "P/E (X)": "-",
+      "Turnover Ratio (%)": "42.45",
+      "Value Trade/Day (M.Baht)": "1,733.05",
+      "Beta": "0.75",
+      "Price Change (%)": "22.95",
+      "Dividend Yield (%)": "-",
+      "Payout Ratio": "-",
+      "Current Ratio (X)": "0.58",
+      "ROE (%)": "-10.38",
+      "ROA (%)": "-5.77",
+      "D/E (X)": "0.79",
+      "Total Asset Turnover (X)": "0.09",
+      "Gross Profit Margin (%)": "96.62",
+      "EBIT Margin (%)": "-64.35",
+      "Net Profit Margin (%)": "-64.59",
+      "A/R Turnover (Times)": "4.46",
+      "Avg. Collection Period (Days)": "81.79",
+      "Inventory Turnover (Times)": "1.73",
+      "Avg. Inventory Period (Days)": "210.41",
+      "A/P Turnover (Times)": "0.13",
+      "Avg. Payment Period (Days)": "2,911.51",
+      "Cash Cycle (Days)": "-2,619.31"
+    }
   },
   {
-    "columns": [
-      [
-        "",
-        "YTD",
-        "2023",
-        "2022"
-      ]
-    ],
-    "rows": [
-      [
-        "Price Change (%)",
-        "13.04",
-        "-10.16",
-        "-"
-      ],
-      [
-        "Dividend Yield (%)",
-        "1.15",
-        "1.74",
-        "0.78"
-      ],
-      [
-        "Payout Ratio",
-        "0.12",
-        "0.18",
-        "0.08"
-      ]
-    ]
-  },
-  {
-    "columns": [
-      [
-        "",
-        "Y/E 2022 31 Dec 2022",
-        "Y/E 2023 31 Dec 2023",
-        "Q1/2023 31 Mar 2023",
-        "Q1/2024 31 Mar 2024"
-      ],
-      [
-        "Accounting Type",
-        "Column0",
-        "Column1",
-        "Column2",
-        "Column3"
-      ]
-    ],
-    "rows": [
-      [
-        "Current Ratio (X)",
-        "2.23",
-        "2.01",
-        "2.17",
-        "2.20"
-      ],
-      [
-        "ROE (%)",
-        "13.17",
-        "8.08",
-        "11.87",
-        "8.86"
-      ],
-      [
-        "ROA (%)",
-        "10.49",
-        "6.92",
-        "9.51",
-        "7.49"
-      ],
-      [
-        "D/E (X)",
-        "0.41",
-        "0.43",
-        "0.42",
-        "0.43"
-      ],
-      [
-        "Total Asset Turnover (X)",
-        "0.83",
-        "0.79",
-        "0.83",
-        "0.77"
-      ],
-      [
-        "Gross Profit Margin (%)",
-        "15.74",
-        "11.67",
-        "10.39",
-        "12.55"
-      ],
-      [
-        "EBIT Margin (%)",
-        "12.62",
-        "8.73",
-        "7.73",
-        "11.88"
-      ],
-      [
-        "Net Profit Margin (%)",
-        "11.02",
-        "7.16",
-        "6.47",
-        "10.13"
-      ]
-    ]
-  },
-  {
-    "columns": [
-      [
-        "",
-        "Y/E 2022 31 Dec 2022",
-        "Y/E 2023 31 Dec 2023",
-        "Q1/2023 31 Mar 2023",
-        "Q1/2024 31 Mar 2024"
-      ],
-      [
-        "Accounting Type",
-        "Column0",
-        "Column1",
-        "Column2",
-        "Column3"
-      ]
-    ],
-    "rows": [
-      [
-        "A/R Turnover (Times)",
-        "20.33",
-        "18.33",
-        "20.75",
-        "18.11"
-      ],
-      [
-        "Avg. Collection Period (Days)",
-        "17.95",
-        "19.91",
-        "17.59",
-        "20.15"
-      ],
-      [
-        "Inventory Turnover (Times)",
-        "4.50",
-        "4.68",
-        "4.68",
-        "4.89"
-      ],
-      [
-        "Avg. Inventory Period (Days)",
-        "81.05",
-        "78.02",
-        "78.02",
-        "74.71"
-      ],
-      [
-        "A/P Turnover (Times)",
-        "13.86",
-        "12.61",
-        "13.66",
-        "11.28"
-      ],
-      [
-        "Avg. Payment Period (Days)",
-        "26.33",
-        "28.96",
-        "26.71",
-        "32.37"
-      ],
-      [
-        "Cash Cycle (Days)",
-        "72.67",
-        "68.98",
-        "68.89",
-        "62.50"
-      ]
-    ]
+    "date": "Y/E 2023 30 Sep 2023",
+    "financialData": {
+      "Listed share (M.Shares)": "14,285.70",
+      "Market Cap. (M.Baht)": "853,570.58",
+      "Price (Baht/share)": "59.75",
+      "BVPS (Baht/Share)": "7.73",
+      "P/BV (X)": "7.73",
+      "P/E (X)": "97.10",
+      "Turnover Ratio (%)": "37.52",
+      "Value Trade/Day (M.Baht)": "1,526.30",
+      "Beta": "0.73",
+      "Price Change (%)": "-20.33",
+      "Dividend Yield (%)": "0.60",
+      "Payout Ratio": "0.59",
+      "Current Ratio (X)": "0.82",
+      "ROE (%)": "8.30",
+      "ROA (%)": "7.48",
+      "D/E (X)": "0.74",
+      "Total Asset Turnover (X)": "0.26",
+      "Gross Profit Margin (%)": "100.00",
+      "EBIT Margin (%)": "29.31",
+      "Net Profit Margin (%)": "18.73",
+      "A/R Turnover (Times)": "6.03",
+      "Avg. Collection Period (Days)": "60.54",
+      "Inventory Turnover (Times)": "0.00",
+      "Avg. Inventory Period (Days)": "1,993,879.33",
+      "A/P Turnover (Times)": "0.00",
+      "Avg. Payment Period (Days)": "29,779,706.91",
+      "Cash Cycle (Days)": "-27,785,767.04"
+    }
   }
 ]
